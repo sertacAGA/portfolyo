@@ -1,19 +1,43 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html lang="tr">
 <head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>Sertaç Aydoğdu Portfolyo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafik Tasarım Portfolyosu (Flipbook)</title>
+    
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+    <style>
+        /* Sayfanın tamamını kaplaması ve ortalanması için basit CSS */
+        body { 
+            margin: 0; 
+            padding: 0; 
+            background-color: #1a1a1a; /* Koyu arka plan tercihi */
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh;
+        }
+        #flash-content {
+            /* Flipbook'unuzun boyutlarına göre bu değerleri ayarlayabilirsiniz */
+            width: 90%; 
+            height: 90vh;
+            max-width: 1200px; /* Maksimum genişlik sınırı */
+        }
+    </style>
+
 </head>
-
-<body bgcolor="#333333">
-
-<p>
-<object id="flash1" data="Portfolyom.swf" height="768" type="application/x-shockwave-flash" width="1280">
-	<param name="movie" value="Portfolyom.swf" />
-</object>
-</p>
+<body>
+    
+    <object 
+        id="flash-content" 
+        data="Portfolyom.swf" 
+        type="application/x-shockwave-flash" 
+        width="100%" 
+        height="100%">
+        
+        <p style="color: white; text-align: center;">Portfolyo yüklenemedi. Lütfen dosya adını kontrol edin.</p>
+    </object>
 
 </body>
-
 </html>
