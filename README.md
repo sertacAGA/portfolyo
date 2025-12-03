@@ -1,4 +1,4 @@
-# Grafik Tasarım Portfolyosu (Flipbook) - [YIL]
+# Grafik Tasarım Portfolyosu (Flipbook) - [2006]
 
 Bu proje, [Okul/Üniversite Adı] eğitimim sırasında hazırladığım grafik tasarım çalışmalarını içeren interaktif bir dijital portfolyodur.
 
